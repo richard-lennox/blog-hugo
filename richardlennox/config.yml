@@ -45,7 +45,7 @@ params:
   linkedin: "https://linkedin.com/in/richard-lennox-a19760"
   #twitter: "https://twitter.com/XXX"
   #stackoverflow: "https://stackoverflow.com/users/XXX/YYY"
-  facebook: "https://www.facebook.com/username"
+  #facebook: "https://www.facebook.com/username"
   email: rich@richardlennox.com
   opengraph: true
   shareTwitter: true
