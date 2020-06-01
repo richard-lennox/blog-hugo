@@ -1,0 +1,3 @@
+[submodule "richardlennox/themes/ghostwriter"]
+	path = richardlennox/themes/ghostwriter
+	url = https://github.com/jbub/ghostwriter
