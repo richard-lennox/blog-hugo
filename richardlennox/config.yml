@@ -29,7 +29,7 @@ privacy:
 
 author:
   name: Richard Lennox
-  profile: "https://google.com/+XXX"
+  profile: "https://linkedin.com/in/richard-lennox-a19760"
 
 taxonomies:
   tag: tags
@@ -49,7 +49,7 @@ params:
   email: rich@richardlennox.com
   opengraph: true
   shareTwitter: true
-  shareFacebook: true
+  shareFacebook: false
   shareGooglePlus: false
   shareLinkedIn: true
   dateFormat: "Mon, Jan 2, 2006"
