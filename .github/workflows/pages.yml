@@ -19,7 +19,7 @@ jobs:
         hugo-version: '0.71.1'
 
     - name: Build
-      run: cd richardlennox & hugo --minify
+      run: cd richardlennox && hugo --minify
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
