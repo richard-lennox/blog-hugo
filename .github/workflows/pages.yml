@@ -26,7 +26,7 @@ jobs:
       with:
         emptyCommits: false
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        external_repository: richard-lennox/blog-www
+        external_repository: richard-lennox/richard-lennox.github.io
         publish_branch: master
         publish_dir: ./richardlennox/public
         cname: blog.richardlennox.com
