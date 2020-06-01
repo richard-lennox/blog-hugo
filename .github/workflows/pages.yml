@@ -9,7 +9,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
       with:
         submodules: true
 
@@ -22,12 +22,12 @@ jobs:
       run: cd richardlennox && hugo --minify
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        EXTERNAL_REPOSITORY: richard-lennox/blog-www
-        PUBLISH_BRANCH: master
-        PUBLISH_DIR: ./richardlennox/public
+      uses: peaceiris/actions-gh-pages@v3
       with:
         emptyCommits: false
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        external_repository: richard-lennox/blog-www
+        publish_branch: master
+        publish_dir: ./richardlennox/public
+        cname: blog.richardlennox.com
         commitMessage: ${{ github.event.head_commit.message }}
